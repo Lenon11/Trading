@@ -18,5 +18,8 @@ Individual
 --------Activar Entorno Virtual-------------------------
 La ruta es ...Trading/venv/Scripts/Activate.ps1
 
+--------Requisitos----------------
+pip install -r 002_Introduction_to_trading/requirements.txt
+
 ---------CORRER EN TERMINAL (Una vez estando en 002_Introduction_to_trading)-------------------------------
 python runner.py --csv Data/Binance_BTCUSDT_1h.csv --plots
