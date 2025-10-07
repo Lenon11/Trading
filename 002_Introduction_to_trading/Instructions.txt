@@ -1,0 +1,22 @@
+General
+
+    * Transaction fees 0.125%
+    * No leverage
+    * Long + Short positions
+    * Signal Confirmation (2 out of 3 indicators agree)
+    * Walk-forward analysis to avoid overfitting
+    * Performance metrics: Sharpe Ratio, Sortino Ratio, Calmar Ratio, Maximum Drawdown, Win Rate
+    * Charts & Tables: Portfolio value through time, Monthly + Quarterly + Annually returns table
+
+Individual
+
+    * Implement a multi-indicator technical trading strategy with signal confirmation (3 indicators)
+    * Build a realistic backtesting environment accounting for transaction costs, long, short positions without leverage.
+    * Optimize strategy hyper-parameters (stop loss, take profit, indicators, n shares, etc.) using systematic methods like Grid Search, Random Search or Bayesian optimization.
+    * Analyze strategy performance using industry-standard metrics
+
+--------Activar Entorno Virtual-------------------------
+La ruta es ...Trading/venv/Scripts/Activate.ps1
+
+---------CORRER EN TERMINAL (Una vez estando en 002_Introduction_to_trading)-------------------------------
+python runner.py --csv Data/Binance_BTCUSDT_1h.csv --plots
